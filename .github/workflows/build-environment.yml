@@ -1,5 +1,4 @@
-
-name: Create conda environment with docker python3.8env
+name: Create conda environment with docker 
 
 on:
   push:
