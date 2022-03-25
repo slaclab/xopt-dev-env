@@ -26,6 +26,6 @@ dependencies:
   - mkdocstrings
   - mkdocs-material
   - mkdocs-jupyter
-  - epics
+  - pyepics
   - numdifftools
   - pip
