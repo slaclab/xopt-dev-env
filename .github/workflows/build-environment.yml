@@ -1,0 +1,18 @@
+
+name: Create conda environment with docker python3.8env
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    env:
+      ENVIRONMENT_NAME: xopt-dev
+      TEST_FILE: test.sh
+    runs-on: ubuntu-latest
+    name: Build environment
+    steps:
+      - name: Build environment
+        uses: slaclab/lcls-rhel6-conda-pack@v1.1
