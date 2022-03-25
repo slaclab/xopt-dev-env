@@ -22,6 +22,7 @@ dependencies:
   - jupyterlab>=3
   - matplotlib
   - pygments
+  - matplotlib
   - mkdocs
   - mkdocstrings
   - mkdocs-material
