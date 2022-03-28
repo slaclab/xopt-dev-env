@@ -1,0 +1,32 @@
+# conda env create -f environment.yml
+name: xopt-dev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - deap
+  - numpy
+  - pydantic
+  - pyyaml
+  - pytorch
+  - botorch
+  - gpytorch
+  - pandas
+  - ipywidgets
+  - tqdm
+# parallel
+  - mpi4py
+  - dask
+# Developer
+  - pytest
+  - jupyterlab>=3
+  - matplotlib
+  - pygments
+  - matplotlib
+  - mkdocs
+  - mkdocstrings
+  - mkdocs-material
+  - mkdocs-jupyter
+  - pyepics
+  - numdifftools
+  - pip
