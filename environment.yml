@@ -8,7 +8,7 @@ dependencies:
   - numpy
   - pydantic
   - pyyaml
-  - pytorch
+  - pytorch>=1.10.2
   - botorch
   - gpytorch
   - pandas
