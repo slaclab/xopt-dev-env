@@ -3,15 +3,15 @@ name: xopt-dev
 channels:
   - conda-forge
 dependencies:
-  - python=3.7
+  - python=3.8
   - deap
   - numpy
   - pydantic
   - pyyaml
-  - pytorch>=1.10.2
   - botorch
   - gpytorch
   - pandas
+  - pyepics
   - ipywidgets
   - tqdm
 # parallel
@@ -22,7 +22,7 @@ dependencies:
   - jupyterlab>=3
   - matplotlib
   - pygments
-  - matplotlib
-  - pyepics
   - numdifftools
   - pip
+  - pip:
+    - torch>=1.10.2
