@@ -9,7 +9,7 @@ jobs:
   build:
     env:
       ENVIRONMENT_NAME: xopt-dev
- #     TEST_FILE: test.sh
+      TEST_FILE: test.sh
     runs-on: ubuntu-latest
     name: Build environment
     steps:

@@ -3,16 +3,17 @@ name: xopt-dev
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.8
   - deap
   - numpy
   - pydantic
   - pyyaml
-  - pytorch
-  - botorch
-  - gpytorch
   - pandas
+  - pyepics
   - ipywidgets
+  - pytorch=1.7.1
+  - botorch=0.4.0
+  - gpytorch=1.4
   - tqdm
 # parallel
   - mpi4py
@@ -22,11 +23,7 @@ dependencies:
   - jupyterlab>=3
   - matplotlib
   - pygments
-  - matplotlib
-  - mkdocs
-  - mkdocstrings
-  - mkdocs-material
-  - mkdocs-jupyter
-  - pyepics
   - numdifftools
   - pip
+  - pip:
+    - git+https://github.com/ChristopherMayes/Xopt.git@918a317
