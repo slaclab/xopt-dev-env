@@ -25,4 +25,6 @@ dependencies:
   - numdifftools
   - pip
   - pip:
-    - torch>=1.10.2
+    - pytorch>=1.10.2
+    - gpytorch
+    - botorch
