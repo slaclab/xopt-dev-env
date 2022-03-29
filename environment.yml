@@ -26,4 +26,4 @@ dependencies:
   - numdifftools
   - pip
   - pip:
-    - git+https://github.com/ChristopherMayes/Xopt.git@918a3175ac762e60b958125193c5867225fe00c3
+    - git+https://github.com/ChristopherMayes/Xopt.git@918a317
