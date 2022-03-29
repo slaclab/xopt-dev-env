@@ -11,6 +11,9 @@ dependencies:
   - pandas
   - pyepics
   - ipywidgets
+  - pytorch=1.7.1
+  - botorch=0.4.0
+  - gpytorch=1.4
   - tqdm
 # parallel
   - mpi4py
@@ -23,6 +26,4 @@ dependencies:
   - numdifftools
   - pip
   - pip:
-    - torch>=1.10.2
-    - gpytorch
-    - botorch
+    - https://github.com/ChristopherMayes/Xopt.git@918a3175ac762e60b958125193c5867225fe00c3
